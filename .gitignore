@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+env/
+.env
+
+# Runtime data
+backend/app/sql_app.db
+backend/log/
+backend/temp/
+backend/app/log/
+backend/app/temp/
+
+# Duplicate local model exports
+backend/models/
+
+# Frontend dependencies and build output
+frontend/node_modules/
+frontend/.next/
+frontend/out/
+frontend/.turbo/
+frontend/*.tsbuildinfo
+
+# Local tooling
+.DS_Store
+*.log
