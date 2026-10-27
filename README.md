@@ -111,7 +111,7 @@ pnpm dev
 ```
 
 Open <http://localhost:3000>, allow camera and audio access, select a camera, and choose **Start Stream**.
-
+<img width="332" height="438" alt="Screenshot 2026-10-27 103459" src="https://github.com/user-attachments/assets/99c9e4c8-a01d-4d1f-bb12-be0f77c19eff" />
 ## API reference
 
 | Method | Endpoint | Purpose |
@@ -168,6 +168,8 @@ uvicorn main:app --reload
 ```
 
 The frontend currently targets `http://localhost:8000` for the backend API. If the services are hosted elsewhere, update the API URLs in the frontend pages before deployment and configure CORS appropriately in the backend.
+<img width="353" height="634" alt="m" src="https://github.com/user-attachments/assets/fc418742-40a2-4756-8c63-15ffc4f7f047" />
+
 
 ## Known limitations
 
